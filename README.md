@@ -1,11 +1,15 @@
 # pbo-post-test-2
 Nama  : Fina Anriani
+
 NIM   : 2209116051
+
 Kelas : Sistem Informasi A 2022
+
+
 
 Project tersebut adalah implementasi Java yang menggunakan tema "Toko Jilbab". 
 
-Berikut adalah penjelasan singkat tentang setiap bagian koding tersebut:
+Berikut adalah penjelasan singkat tentang setiap bagian code project tersebut:
 
 1. Package utama: com.tokojilbab
    
