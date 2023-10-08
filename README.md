@@ -7,7 +7,7 @@ Project tersebut adalah implementasi Java yang menggunakan tema "Toko Jilbab".
 
 Berikut adalah penjelasan singkat tentang setiap bagian koding tersebut:
 
-1.	Package utama: com.tokojilbab
+1. Package utama: com.tokojilbab
    
 ![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/a79d891a-ea1b-4034-9134-49ed75ff6d9c)
 
@@ -42,7 +42,7 @@ h. Metode cariJilbabById() digunakan untuk mencari jilbab berdasarkan ID.
 ![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/684a490a-85af-44f5-aa8e-3c392314a6c3)
 
   
-3.	Package entitas: com.tokojilbab.entity
+2. Package entitas: com.tokojilbab.entity
    
 ![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/b49f7ead-d9f0-4815-a8cf-f76190874011)
 
