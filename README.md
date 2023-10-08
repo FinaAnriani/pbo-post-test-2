@@ -11,15 +11,15 @@ Berikut adalah penjelasan singkat tentang setiap bagian koding tersebut:
    
 ![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/a79d891a-ea1b-4034-9134-49ed75ff6d9c)
 
-    •	TokoJilbab adalah kelas utama yang berfungsi sebagai program utama. Di dalamnya, terdapat logika untuk menampilkan menu dan mengelola data jilbab.
+a. TokoJilbab adalah kelas utama yang berfungsi sebagai program utama. Di dalamnya, terdapat logika untuk menampilkan menu dan mengelola data jilbab.
     
-    •	Kode ini menggunakan objek Scanner untuk menerima input dari pengguna melalui konsol.
+b. Kode ini menggunakan objek Scanner untuk menerima input dari pengguna melalui konsol.
   	
-   ![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/e9d697d9-c927-4ba7-86ab-949dc44a4fca)
+![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/e9d697d9-c927-4ba7-86ab-949dc44a4fca)
 
-    •	Terdapat beberapa metode untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada daftar jilbab.
+      c. Terdapat beberapa metode untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada daftar jilbab.
     
-  	![1pbo](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/7efbd94a-f0c7-4abb-b9cc-5cf553566204)
+![1pbo](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/7efbd94a-f0c7-4abb-b9cc-5cf553566204)
 
     •	Metode tambahJilbab() digunakan untuk menambahkan jilbab baru ke dalam daftar.
     
