@@ -12,6 +12,7 @@ Berikut adalah penjelasan singkat tentang setiap bagian koding tersebut:
 ![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/a79d891a-ea1b-4034-9134-49ed75ff6d9c)
 
     •	TokoJilbab adalah kelas utama yang berfungsi sebagai program utama. Di dalamnya, terdapat logika untuk menampilkan menu dan mengelola data jilbab.
+    
     •	Kode ini menggunakan objek Scanner untuk menerima input dari pengguna melalui konsol.
   	
    ![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/e9d697d9-c927-4ba7-86ab-949dc44a4fca)
@@ -50,5 +51,7 @@ Berikut adalah penjelasan singkat tentang setiap bagian koding tersebut:
   	![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/f3d03c15-7604-49e2-bf88-5d4d2154e757)
 
     •	Setiap kelas memiliki atribut-atribut yang merepresentasikan data yang terkait dengan entitas tersebut, seperti ID, nama, harga, posisi, dan alamat.
+    
     •	Setiap kelas memiliki konstruktor untuk menginisialisasi nilai awal atribut-atributnya.
+    
     •	Setiap kelas juga memiliki metode getter dan setter untuk mengakses dan mengubah nilai atribut-atributnya.
