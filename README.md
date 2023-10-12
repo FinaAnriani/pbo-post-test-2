@@ -54,7 +54,7 @@ Output:
 
 ![perbarui](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/ece5de19-ee2d-45ec-9082-62e8514f38c0)
 
-5. Saat pengguna memilih menu 4, program akan meminta pengguna untuk memasukkan ID jilbab yang ingin dihapus. Output ini meminta pengguna untuk memasukkan ID jilbab yang ingin dihapus dari daftar jilbab. Setelah jilbab berhasil dihapus, program akan memberikan konfirmasi bahwa jilbab telah berhasil dihapus dari daftar jilbab.
+5. Saat pengguna memilih menu 4, program akan meminta pengguna untuk memasukkan ID jilbab yang ingin dihapus. Setelah jilbab berhasil dihapus, program akan memberikan konfirmasi bahwa jilbab telah berhasil dihapus dari daftar jilbab.
 
 ![hapus](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/a2b9d3bb-9eda-4223-843f-81047dbba723)\
 
