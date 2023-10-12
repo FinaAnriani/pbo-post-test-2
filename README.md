@@ -1,7 +1,7 @@
 # pbo-post-test-2
-Nama  : Fina Anriani
+Nama : Fina Anriani
 
-NIM   : 2209116051
+NIM : 2209116051
 
 Kelas : Sistem Informasi A 2022
 
