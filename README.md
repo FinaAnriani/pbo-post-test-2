@@ -50,7 +50,7 @@ Output:
 
 ![lihat](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/f094c4c9-f715-4cb1-993c-ab1b3d4f3e21)
 
-4. Saat pengguna memilih menu 3, program akan meminta pengguna untuk memasukkan ID jilbab yang ingin diperbarui harganya. Output ini meminta pengguna untuk memasukkan ID jilbab yang ingin diperbarui harganya. Setelah pengguna memasukkan ID jilbab, program akan meminta pengguna untuk memasukkan harga baru. Output ini meminta pengguna untuk memasukkan harga baru yang akan diterapkan pada jilbab yang dipilih. Setelah harga jilbab berhasil diperbarui, program akan memberikan konfirmasi bahwa data jilbab berhasil diperbaharui.
+4. Saat pengguna memilih menu 3, program akan meminta pengguna untuk memasukkan ID jilbab yang ingin diperbarui harganya. Setelah pengguna memasukkan ID jilbab, program akan meminta pengguna untuk memasukkan harga baru. Setelah harga jilbab berhasil diperbarui, program akan memberikan konfirmasi bahwa data jilbab berhasil diperbaharui.
 
 ![perbarui](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/ece5de19-ee2d-45ec-9082-62e8514f38c0)
 
