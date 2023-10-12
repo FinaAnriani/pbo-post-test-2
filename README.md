@@ -7,55 +7,27 @@ Kelas : Sistem Informasi A 2022
 
 
 
-Project tersebut adalah implementasi Java yang menggunakan tema "Toko Jilbab". 
+1. Struktur Package:
+   - Kode tersebut terorganisir dalam dua package: `com.tokojilbab` dan `toko.jilbab.entity`.
+   - Package `com.tokojilbab` berisi kelas utama `TokoJilbab` yang berfungsi sebagai titik masuk untuk program.
+   - Package `toko.jilbab.entity` berisi dua kelas: `Jilbab` dan `Jilbab_Data`.
 
-Berikut adalah penjelasan singkat tentang setiap bagian code project tersebut:
+2. Kelas Utama (`TokoJilbab`):
+   - Kelas `TokoJilbab` berisi metode `main`, yang merupakan titik awal program.
+   - Di dalam metode `main`, sebuah `ArrayList` dengan nama `daftarJilbab` diinisialisasi untuk menyimpan objek-objek `Jilbab`.
+   - Program berjalan dalam sebuah loop di mana ia menampilkan menu pilihan dan meminta input dari pengguna menggunakan objek `Scanner`.
+   - Tergantung pada pilihan pengguna, berbagai metode dipanggil untuk melakukan operasi seperti menambahkan jilbab baru, melihat semua jilbab, memperbarui informasi jilbab, atau menghapus jilbab.
+   - Program terus berulang dalam loop sampai pengguna memilih untuk keluar.
 
-1. Package utama: com.tokojilbab
-   
-![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/a79d891a-ea1b-4034-9134-49ed75ff6d9c)
+3. Kelas `Jilbab`:
+   - Kelas `Jilbab` mewakili sebuah entitas jilbab dengan atribut-atribut seperti `id`, `nama`, `jenis`, dan `harga`.
+   - Konstruktor dari kelas `Jilbab` digunakan untuk menginisialisasi atribut-atribut tersebut.
+   - Kelas ini menyediakan metode-metode getter untuk mengakses nilai-nilai atribut.
+   - Juga disediakan metode setter untuk memperbarui atribut `harga`.
 
-a. TokoJilbab adalah kelas utama yang berfungsi sebagai program utama. Di dalamnya, terdapat logika untuk menampilkan menu dan mengelola data jilbab.
-    
-b. Kode ini menggunakan objek Scanner untuk menerima input dari pengguna melalui konsol.
-  	
-![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/e9d697d9-c927-4ba7-86ab-949dc44a4fca)
+4. Interface `Jilbab_Data`:
+   - Interface `Jilbab_Data` mendefinisikan sebuah kontrak yang diimplementasikan oleh kelas `Jilbab`.
+   - Interface ini menentukan metode-metode yang harus diimplementasikan oleh kelas apa pun yang ingin merepresentasikan data jilbab.
+   - Dalam kasus ini, interface tersebut mendeklarasikan metode-metode untuk mendapatkan `id`, `nama`, `jenis`, dan `harga` dari sebuah jilbab.
 
-c. Terdapat beberapa metode untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada daftar jilbab.
-    
-![1pbo](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/7efbd94a-f0c7-4abb-b9cc-5cf553566204)
-
-d. Metode tambahJilbab() digunakan untuk menambahkan jilbab baru ke dalam daftar.
-    
-![pil1pbo](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/3bb84f3c-08d7-4067-abc3-99002355a043)
-
-e. Metode editJilbab() digunakan untuk mengubah data jilbab yang sudah ada.
-    
-![pil2pbo](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/853d8757-fdde-4d92-a5ed-83ad5a18db02)
-
-f.	Metode hapusJilbab() digunakan untuk menghapus jilbab dari daftar.
-    
-![pil3pbo](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/5185814b-15f6-4b1e-9131-2e8665bbea0f)
-
-g. Metode tampilkanJilbab() digunakan untuk menampilkan daftar jilbab yang sudah ada.
-    
-![pil4pbo](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/88bfbd3d-71b3-498a-b32c-544a6fa15bb9)
-
-h. Metode cariJilbabById() digunakan untuk mencari jilbab berdasarkan ID.
-    
-![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/684a490a-85af-44f5-aa8e-3c392314a6c3)
-
-  
-2. Package entitas: com.tokojilbab.entity
-   
-![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/b49f7ead-d9f0-4815-a8cf-f76190874011)
-
-a. Di dalam package ini terdapat tiga kelas entitas: Jilbab, Pegawai, dan Pembeli.
-    
-![image](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/f3d03c15-7604-49e2-bf88-5d4d2154e757)
-
-b. Setiap kelas memiliki atribut-atribut yang merepresentasikan data yang terkait dengan entitas tersebut, seperti ID, nama, harga, posisi, dan alamat.
-    
-c. Setiap kelas memiliki konstruktor untuk menginisialisasi nilai awal atribut-atributnya.
-    
-d. Setiap kelas juga memiliki metode getter dan setter untuk mengakses dan mengubah nilai atribut-atributnya.
+Secara keseluruhan, kode tersebut merupakan contoh aplikasi sederhana berbasis konsol untuk mengelola data jilbab di sebuah toko. Kode tersebut memperlihatkan konsep-konsep seperti kelas, objek, koleksi (ArrayList), input pengguna (Scanner), dan alur kontrol dasar menggunakan loop dan pernyataan kondisional. Kode tersebut mengikuti prinsip-prinsip berorientasi objek dengan memisahkan konsep menjadi kelas-kelas dan interface yang berbeda.
