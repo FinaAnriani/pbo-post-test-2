@@ -59,7 +59,3 @@ Output:
 6. Saat pengguna memilih menu 5, program akan menampilkan pesan penutup dan program akan berakhir. Output ini merupakan pesan penutup yang ditampilkan setelah pengguna memilih menu keluar.
 
 ![keluar](https://github.com/FinaAnriani/pbo-post-test-2/assets/127528115/abd061b2-9ff1-4c96-9190-472a0df2d6ce)
-
-
-
-
